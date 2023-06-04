@@ -25,12 +25,12 @@ This is a simple Java application that generates a list of prime numbers within 
 ### Examples
 
 - To generate prime numbers from 1 to 20, input the range as follows:
-Please input the range (starting value and ending value):
-1
+Please input the range (starting value and ending value):<br>
+1 <br>
 20
 
 - To quit the application, select option 2 when prompted.
-- 
+
 This application is compatible with Windows, macOS, and Linux operating systems.
 
 
