@@ -7,7 +7,7 @@ This is a simple Java application that generates a list of prime numbers within 
 - Java Development Kit (JDK) 8 or higher installed on your system.
 - JUnit and Hamcrest libraries for running the unit tests. These libraries should be available in the classpath.
 
-### Running the Application
+### Running the Application in Command Line
 
 1. Clone the repository to your local machine: 
   `git clone https://github.com/pruthvi-dudam/PrimeNumber-generator.git`
@@ -45,7 +45,7 @@ Please input the range (starting value and ending value):<br>
 - `javac -cp "out/:/path/to/junit.jar:/path/to/hamcrest-core.jar" -d out/ test/com/primeNumberGeneratorTest/PrimeNumberGeneratorTest.java`
  
  3. Run the test file:
-  `java -cp "out/:/path/to/junit.jar:/path/to/hamcrest-core.jar" org.junit.runner.JUnitCore com.primeNumberGeneratorTest.PrimeNumberGeneratorTest`
+  `java -cp "./:/path/to/junit.jar:/path/to/hamcrest-core.jar" org.junit.runner.JUnitCore com.primeNumberGeneratorTest.PrimeNumberGeneratorTest`
 
 This application is compatible with Windows, macOS, and Linux operating systems.
 
